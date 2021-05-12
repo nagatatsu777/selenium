@@ -25,7 +25,7 @@ def login():
 def log(driver):
     driver.execute_script("window.open('');")
     driver.get("https://blackboard.gwu.edu/")
-    stpass = "naga_tatsu"
+    stpass = ""
     struser = input("Password?")
     user = driver.find_element_by_id("user_id")
     pas = driver.find_element_by_id("password")
