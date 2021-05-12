@@ -14,7 +14,7 @@ def openwindow():
             return self.word[numb]
 
 
-    PATH = "/Users/kyouka/Desktop/chromedriver"
+    PATH = ""
     driver =webdriver.Chrome(PATH)
     driver.get("https://www.google.com/")
     #https://www.youtube.com/watch?v=b5jt2bhSeXs&t=302s
